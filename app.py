@@ -4,7 +4,7 @@ import base64
 from groq import Groq
 
 # ===========================================================
-# 1. ICON SYSTEM
+# ICON SYSTEM
 # ===========================================================
 _ICON_PATHS = {
     "sparkles": ("M12 2L13.8 9.2L21 11L13.8 12.8L12 20L10.2 12.8L3 11L10.2 9.2L12 2Z", "solid"),
@@ -58,11 +58,9 @@ USER_AVATAR = icon_data_uri("user", size=64, color="%23FCD34D") # Gold
 PAGE_ICON = icon_data_uri("sparkles", size=64, color="%23B45309")
 
 # ===========================================================
-# 2. PAGE CONFIG & CUSTOM BROWN CSS
+# PAGE CONFIG & CUSTOM BROWN CSS
 # ===========================================================
 st.set_page_config(page_title="NexAI Workspace", page_icon=PAGE_ICON, layout="wide", initial_sidebar_state="expanded")
-
-# MENGGUNAKAN ST.HTML AGAR CSS TIDAK BOCOR KE LAYAR
 st.html("""
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
