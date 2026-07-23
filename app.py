@@ -159,7 +159,7 @@ section[data-testid="stSidebar"] .stTextInput input {
 """)
 
 # ===========================================================
-# 3. SESSION STATE INIT 
+# SESSION STATE INIT 
 # ===========================================================
 if "logged_in" not in st.session_state: st.session_state.logged_in = False
 if "username" not in st.session_state: st.session_state.username = ""
@@ -167,7 +167,7 @@ if "chat_history" not in st.session_state: st.session_state.chat_history = []
 if "api_key" not in st.session_state: st.session_state.api_key = ""
 
 # ===========================================================
-# 4. HALAMAN LOGIN
+# HALAMAN LOGIN
 # ===========================================================
 def login_page():
     st.markdown("<br><br>", unsafe_allow_html=True)
