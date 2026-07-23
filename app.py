@@ -198,10 +198,10 @@ def login_page():
                     st.error("⚠️ Username dan Password wajib diisi!")
 
 # ===========================================================
-# 5. HALAMAN DASHBOARD (SAAS UTAMA)
+# HALAMAN DASHBOARD (SAAS UTAMA)
 # ===========================================================
 def dashboard_page():
-    # --- SIDEBAR NAVIGASI ---
+    #SIDEBAR NAVIGASI 
     with st.sidebar:
         st.markdown(f'<p class="sidebar-title">{icon_label("user", f"Halo, {st.session_state.username}")}</p>', unsafe_allow_html=True)
         st.markdown('<hr class="soft-divider">', unsafe_allow_html=True)
@@ -220,7 +220,7 @@ def dashboard_page():
                 st.session_state[key] = False if key == "logged_in" else ([] if key == "chat_history" else "")
             st.rerun()
 
-    # --- KONTEN HALAMAN ---
+    #KONTEN HALAMAN 
     if menu == "📊 Overview":
         st.markdown(f"""
         <div class="hero">
