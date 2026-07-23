@@ -1,8 +1,6 @@
 import google.generativeai as genai
 
-# Masukkan API Key kamu di sini
-genai.configure(api_key = "KODE_RAHASIA")
-
+genai.configure(api_key = "Kode_Rahasia mwehehe")
 print("Daftar Model yang Bisa Dipakai:")
 for m in genai.list_models():
     if 'generateContent' in m.supported_generation_methods:
