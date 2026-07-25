@@ -1,5 +1,3 @@
-#  NexAI Workspace: Enterprise-Grade AI SaaS
-
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&pause=1000&color=D97706&center=true&vCenter=true&width=800&lines=⚡+NexAI+Workspace;Enterprise-Grade+AI+SaaS;Powered+by+Groq+LPU+%26+Llama-3.1;Built+by+Dimas+Arya+Ramadhan" alt="Typing SVG" />
 </div>
@@ -23,9 +21,11 @@
 
 <br>
 
+Unlike standard Streamlit applications, NexAI features a highly customized, ultra-premium **Espresso & Bronze Glassmorphism UI**, bypassing native frontend limitations to deliver a truly modern SaaS experience.
+
 ---
 
-##  Key Features
+## ✨ Key Features
 
 - **Blazing Fast Inference:** Powered by the Groq API, delivering near-instantaneous token generation.
 - **Advanced UI/UX:** Custom CSS implementation featuring mesh gradients, glassmorphism containers, and custom SVG iconography.
@@ -36,7 +36,7 @@
 
 ---
 
-##  Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend:** Streamlit, HTML5, Advanced Custom CSS (Glassmorphism)
 - **Backend:** Python
@@ -45,7 +45,7 @@
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 Follow these steps to run the NexAI Workspace on your local machine.
 
@@ -75,12 +75,12 @@ streamlit run app.py
 
 ---
 
-##  Easter Egg & System Prompting
+## 🧠 Easter Egg & System Prompting
 This application utilizes System Prompt Engineering to lock the AI into a specific persona. Try asking the AI: *"Siapa penciptamu?"* or *"Siapa tuanmu?"* to trigger a strict override command demonstrating constraint modeling in LLMs.
 
 ---
 
-##  About the Author
+## 👨‍💻 About the Author
 **Dimas Arya Ramadhan**
 Data Science Undergraduate | Institut Teknologi Sumatera (ITERA)
 
