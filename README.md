@@ -1,9 +1,29 @@
 #  NexAI Workspace: Enterprise-Grade AI SaaS
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Groq](https://img.shields.io/badge/Groq_LPU-F59E0B?style=for-the-badge&logo=groq&logoColor=white)
-![Llama](https://img.shields.io/badge/Meta_Llama_3.1-0466C8?style=for-the-badge&logo=meta)
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&pause=1000&color=D97706&center=true&vCenter=true&width=800&lines=⚡+NexAI+Workspace;Enterprise-Grade+AI+SaaS;Powered+by+Groq+LPU+%26+Llama-3.1;Built+by+Dimas+Arya+Ramadhan" alt="Typing SVG" />
+</div>
+
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="AI Animation banner" width="100%">
+</div>
+
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-3.9%2B-1c100b?style=for-the-badge&logo=python&logoColor=D97706">
+  <img src="https://img.shields.io/badge/Streamlit-1c100b?style=for-the-badge&logo=streamlit&logoColor=FF4B4B">
+  <img src="https://img.shields.io/badge/Groq_LPU-1c100b?style=for-the-badge&logo=groq&logoColor=F59E0B">
+  <img src="https://img.shields.io/badge/Meta_Llama_3.1-1c100b?style=for-the-badge&logo=meta&logoColor=0466C8">
+</div>
+
+<br>
+
+<div align="center">
+  <strong>NexAI Workspace</strong> is a high-performance, Full-Stack Generative AI SaaS Minimum Viable Product (MVP). Built to demonstrate the extreme inference speed of <b>Groq's Language Processing Units (LPUs)</b> combined with the cutting-edge <b>Llama-3.1-8b-instant</b> model.
+</div>
+
+<br>
+
+---
 
 **NexAI Workspace** is a high-performance, Full-Stack Generative AI SaaS Minimum Viable Product (MVP). Built to demonstrate the extreme inference speed of **Groq's Language Processing Units (LPUs)** combined with the cutting-edge **Llama-3.1-8b-instant** model, this workspace is designed for data analysis, programming assistance, and enterprise-level AI interaction.
 
