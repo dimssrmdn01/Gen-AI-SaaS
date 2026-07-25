@@ -25,12 +25,6 @@
 
 ---
 
-**NexAI Workspace** is a high-performance, Full-Stack Generative AI SaaS Minimum Viable Product (MVP). Built to demonstrate the extreme inference speed of **Groq's Language Processing Units (LPUs)** combined with the cutting-edge **Llama-3.1-8b-instant** model, this workspace is designed for data analysis, programming assistance, and enterprise-level AI interaction.
-
-Unlike standard Streamlit applications, NexAI features a highly customized, ultra-premium **Espresso & Bronze Glassmorphism UI**, bypassing native frontend limitations to deliver a truly modern SaaS experience.
-
----
-
 ##  Key Features
 
 - **Blazing Fast Inference:** Powered by the Groq API, delivering near-instantaneous token generation.
