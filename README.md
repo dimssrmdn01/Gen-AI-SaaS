@@ -23,31 +23,64 @@
 
 Unlike standard Streamlit applications, NexAI features a highly customized, ultra-premium **Espresso & Bronze Glassmorphism UI**, bypassing native frontend limitations to deliver a truly modern SaaS experience.
 
----
+<div align="center">
 
-## ✨ Key Features
+[Overview](#overview) • [Features](#features) • [Tech Stack](#tech-stack) • [Project Structure](#project-structure) • [Getting Started](#getting-started) • [Configuration](#configuration) • [Easter Egg](#easter-egg--system-prompting) • [Author](#about-the-author)
 
-- **Blazing Fast Inference:** Powered by the Groq API, delivering near-instantaneous token generation.
-- **Advanced UI/UX:** Custom CSS implementation featuring mesh gradients, glassmorphism containers, and custom SVG iconography.
-- **Secure Authentication:** Mocked secure gateway (for MVP demonstration purposes) to access the main workspace.
-- **Dynamic Context Management:** Real-time chat history retention and isolated session states.
-- **System Prompt Engineering:** Embedded with a highly specific system persona to ensure output accuracy, professionalism, and a hidden "Easter Egg" creator acknowledgment.
-- **API Key Management:** Client-side API key configuration for secure, user-managed authentication with Groq servers.
+</div>
 
 ---
 
-## 🛠️ Tech Stack
+## Overview
 
-- **Frontend:** Streamlit, HTML5, Advanced Custom CSS (Glassmorphism)
-- **Backend:** Python
-- **LLM Engine:** Meta Llama-3.1-8b-instant
-- **API Provider:** Groq Cloud LPU
+NexAI Workspace is designed as a practical demonstration of a production-style Generative AI SaaS product — combining a low-latency inference backend (Groq LPU) with a fully custom frontend built on top of Streamlit. The project focuses on three things: raw inference speed, interface polish, and clean session/state architecture, making it a solid reference implementation for anyone building AI-powered internal tools or MVPs.
 
 ---
 
-## 🚀 Getting Started
+## Features
+
+| Feature | Description |
+|---|---|
+| **Blazing Fast Inference** | Powered by the Groq API, delivering near-instantaneous token generation. |
+| **Advanced UI/UX** | Custom CSS implementation featuring mesh gradients, glassmorphism containers, and custom SVG iconography. |
+| **Secure Authentication** | Mocked secure gateway (for MVP demonstration purposes) to access the main workspace. |
+| **Dynamic Context Management** | Real-time chat history retention and isolated session states. |
+| **System Prompt Engineering** | Embedded with a highly specific system persona to ensure output accuracy and professionalism. |
+| **API Key Management** | Client-side API key configuration for secure, user-managed authentication with Groq servers. |
+
+---
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Streamlit, HTML5, Custom CSS (Glassmorphism) |
+| Backend | Python |
+| LLM Engine | Meta Llama-3.1-8b-instant |
+| API Provider | Groq Cloud LPU |
+
+---
+
+## Project Structure
+
+```
+Gen-AI-SaaS/
+├── app.py                 # Main Streamlit entry point
+├── core_agent.py           # Agent / model orchestration logic
+├── requirements.txt         # Python dependencies
+├── assets/                 # Static assets (icons, images)
+└── README.md
+```
+
+---
+
+## Getting Started
 
 Follow these steps to run the NexAI Workspace on your local machine.
+
+### Prerequisites
+- Python 3.9 or higher
+- A free Groq API key ([console.groq.com/keys](https://console.groq.com/keys))
 
 ### 1. Clone the Repository
 ```bash
@@ -56,34 +89,61 @@ cd Gen-AI-SaaS
 ```
 
 ### 2. Install Dependencies
-Ensure you have Python installed, then install the required libraries:
 ```bash
 pip install -r requirements.txt
 ```
 
 ### 3. Run the Application
-Launch the Streamlit server:
 ```bash
 streamlit run app.py
 ```
 
-### 4. Configuration
-1. Obtain a free API key from [GroqCloud Console](https://console.groq.com/keys).
-2. Login to the NexAI UI (use any text for testing).
-3. Navigate to 🔑 **API Config** in the sidebar and securely enter your Groq API Key (`gsk_...`).
-4. Move to ⚡ **NexAI Chat** and start interacting!
+---
+
+## Configuration
+
+1. Obtain a free API key from the [GroqCloud Console](https://console.groq.com/keys).
+2. Log in to the NexAI UI (any text works for testing purposes).
+3. Navigate to **API Config** in the sidebar and enter your Groq API Key (`gsk_...`).
+4. Move to **NexAI Chat** and start interacting with the assistant.
 
 ---
 
-## 🧠 Easter Egg & System Prompting
-This application utilizes System Prompt Engineering to lock the AI into a specific persona. Try asking the AI: *"Siapa penciptamu?"* or *"Siapa tuanmu?"* to trigger a strict override command demonstrating constraint modeling in LLMs.
+## Easter Egg & System Prompting
+
+This application uses system prompt engineering to lock the AI into a specific persona. Try asking the assistant: *"Siapa penciptamu?"* or *"Siapa tuanmu?"* — this triggers a strict override command that demonstrates constraint modeling in LLMs.
 
 ---
 
-## 👨‍💻 About the Author
+## Roadmap
+
+- [ ] Persistent chat history (database-backed)
+- [ ] Multi-model selection (Llama, Mixtral, etc.)
+- [ ] Proper authentication layer (replace mocked gateway)
+- [ ] Deployment guide (Docker / cloud)
+
+---
+
+## Contributing
+
+Contributions, issues, and feature requests are welcome. Feel free to open a pull request or submit an issue via the [GitHub repository](https://github.com/dimssrmdn01/Gen-AI-SaaS).
+
+---
+
+## License
+
+This project is released for educational and portfolio purposes. Add a license file (e.g. MIT) if you intend to distribute or reuse this code.
+
+---
+
+## About the Author
+
 **Dimas Arya Ramadhan**
-Data Science Undergraduate | Institut Teknologi Sumatera (ITERA)
+Data Science Undergraduate 
 
-Passionate about data science, quantitative analytics, and building robust AI-driven applications. This project serves as a practical demonstration of integrating state-of-the-art LLMs with custom front-end architectures.
+Passionate about data science, quantitative analytics, and building AI-driven applications. This project serves as a practical demonstration of integrating state-of-the-art LLMs with custom frontend architecture.
 
-Let's connect and build the future of AI! 🚀
+<div align="center">
+  <a href="https://github.com/dimssrmdn01"><img src="https://img.shields.io/badge/GitHub-1c100b?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://linkedin.com/in/your-linkedin"><img src="https://img.shields.io/badge/LinkedIn-1c100b?style=for-the-badge&logo=linkedin&logoColor=0A66C2"></a>
+</div>
