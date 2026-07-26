@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&pause=1000&color=D97706&center=true&vCenter=true&width=800&lines=⚡+NexAI+Workspace;Enterprise-Grade+AI+SaaS;Powered+by+Groq+LPU+%26+Llama-3.1;Built+by+Dimas+Arya+Ramadhan" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=38&pause=1000&color=D97706&center=true&vCenter=true&width=800&lines=%E2%9A%A1+NexAI+Workspace;Enterprise-Grade+AI+SaaS;Powered+by+Groq+LPU+%26+Llama-3.1;Built+by+Dimas+Arya+Ramadhan" alt="Typing SVG" />
 </div>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" alt="AI Animation banner" width="100%">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1c100b,100:D97706&height=180&section=header&text=NexAI%20Workspace&fontSize=42&fontColor=ffffff&fontAlignY=38&desc=Enterprise-Grade%20AI%20SaaS&descAlignY=58&descSize=18" alt="NexAI Banner" width="100%">
 </div>
 
 <div align="center">
